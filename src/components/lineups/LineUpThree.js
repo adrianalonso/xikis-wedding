@@ -21,7 +21,7 @@ const LineUpThree = () => {
   return (
     <section
       id="line-up"
-      className="lineup-section lineup-2 subscription-2 pt-40 pb-100 pt-lg-100 pb-lg-130 pt-xxl-120 pb-xxl-180 mb-20"
+      className="lineup-section lineup-2 subscription-2 pt-40 pb-100 pt-lg-100 pb-lg-100 pt-xxl-120 pb-xxl-180 mb-20"
     >
       <div className="container">
         <div className="row gx-80 gy-30 align-items-center">
@@ -74,6 +74,19 @@ const LineUpThree = () => {
           {/* <!-- col-7 --*/}
         </div>
         {/* <!-- row --> */}
+        <div className="row gx-80 gy-30 pt-xxl-120 pt-120 align-items-center">
+          <div className="col-lg-8 mx-auto d-flex align-items-center justify-content-center">
+            <iframe
+              src="https://open.spotify.com/embed/playlist/3EOzOoOaYzIreaRzxIUPfD?utm_source=generator"
+              width="100%"
+              height="500"
+              frameBorder="0"
+              allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
       </div>
       {/* <!-- container -->	 */}
     </section>

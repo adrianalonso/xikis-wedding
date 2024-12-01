@@ -32,7 +32,7 @@ const ScheduleThree = ({ dotsImage }) => {
                 {/* <!-- section-title --> */}
                 <SectionDesc
                   desc={
-                    "Captivating performances, interactive workshops, and delightful culinary delights await you at Harmonia Music Festival. Let the melodies transcend boundaries on this unforgettable musical journey."
+                    "Viviremos un día muy completo relleno de momentos emocionantes. Aquí te dejamos la agenda para que no te pierdas nada. 🎉"
                   }
                   className={"custom-jakarta custom-font-style-2"}
                 />

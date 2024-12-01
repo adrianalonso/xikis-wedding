@@ -9,6 +9,9 @@ import SectionDesc from "@/components/common/sectionTitle/SectionDesc";
 
 import about_img_7 from "@/assets/images/home-7/about-7-image.jpeg";
 import SectionTitleTwo from "@/components/common/sectionTitle/SectionTitleTwo";
+import CheckIcon from "../common/icons/CheckIcon";
+import RightArrow from "../common/icons/RightArrow";
+import NextIcon from "../common/icons/NextIcon";
 
 const AboutFour = () => {
   return (
@@ -55,7 +58,7 @@ const AboutFour = () => {
                   28 de Junio de 2025
                 </h4>
                 <p className="custom-jakarta custom-font-style-2 fw-semibold mb-0">
-                  Desde las 12:00
+                  12:00
                 </p>
               </div>
               <div>
@@ -63,16 +66,25 @@ const AboutFour = () => {
                   Lugar del Evento
                 </h4>
                 <p className="custom-jakarta custom-font-style-2 fw-semibold mb-0">
-                  Almería City
+                  Casa Rafael, Huércal de Almería
                 </p>
               </div>
             </div>
             {/* -- about-3-text -- */}
 
             <div className="d-block d-md-flex gap-4">
-              <ButtonFill className={"btn-rounded"} link={"#"}>
+              <ButtonFill className={"btn-rounded"} link={"#pricing"}>
                 <TicketIcon height={"25"} width={"25"} />
                 Confimar Asistencia
+              </ButtonFill>
+
+              <ButtonFill
+                className={"btn-rounded btn-secondary"}
+                target={"_blank"}
+                link={"https://maps.app.goo.gl/6hv1NnfXBMGhP1637"}
+              >
+                <NextIcon height={"25"} width={"25"} />
+                Lugar de celebracion
               </ButtonFill>
             </div>
           </div>

@@ -37,8 +37,6 @@ const Home = () => {
       <Separator />
       <Sponsor />
       <Gallery styleNum={2} />
-      <Shop dotsImage={ellipse_4} />
-      <Cta styleNum={2} />
       <SubscriptionOne styleNum={2} />
     </>
   );

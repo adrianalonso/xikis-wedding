@@ -11,6 +11,7 @@ import { highlightsData } from "@/lib/highlightsData";
 const HighlightThree = ({ styleNum, prantClass }) => {
   return (
     <section
+      id="highlights"
       className={`highlight-section highlight-2 ${prantClass} pb-lg-100 pb-xxl-120 mt-4`}
     >
       <div className="container position-relative">

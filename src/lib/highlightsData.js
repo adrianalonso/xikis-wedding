@@ -14,7 +14,7 @@ export const highlightsData = [
   {
     id: 2,
     title: "Prepárate para cantar",
-    desc: "La música sonará´en muchos momentos y queremos que os unáis a la fiesta 🎤️ No importa si desafinas, aquí todos somos estrellas por un día. Lo único que queremos es que disfrutes, cantes y vivas la magia con nosotros. 🌟",
+    desc: "La música sonará en muchos momentos y queremos que os unáis a la fiesta 🎤️ No importa si desafinas, aquí todos somos estrellas por un día. Lo único que queremos es que disfrutes, cantes y vivas la magia con nosotros. 🌟",
     icon: <HighlightsIcon2 />,
   },
   {

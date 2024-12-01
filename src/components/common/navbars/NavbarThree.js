@@ -23,15 +23,21 @@ const NavbarThree = () => {
     <>
       <header className="header-section header-7 sticky-navbar hover-menu">
         <div className="container">
-          <nav className="navbar navbar-expand-xl">
-            <div className="d-flex w-100 justify-content-between">
+          <nav className="navbar navbar-expand-xl ">
+            <div className="d-flex w-100 justify-content-between align-items-center">
               <Link className="navbar-brand" href="/" aria-label="nav-brands">
                 <Image
                   src={logo_landing_light}
+                  width={80}
                   className="logo-light"
                   alt="logo"
                 />
-                <Image src={logo_secondary} className="logo-dark" alt="logo" />
+                <Image
+                  src={logo_secondary}
+                  width={80}
+                  className="logo-dark"
+                  alt="logo"
+                />
               </Link>
 
               <button
@@ -91,7 +97,7 @@ const NavbarThree = () => {
                   </ul>
                   <ButtonFill className={"gap-2 btn-rounded"} link={"#pricing"}>
                     <TicketIcon height={"25"} width={"25"} />
-                    Buy Ticket
+                    Confirmar Asistencia
                   </ButtonFill>
                 </div>
               </div>

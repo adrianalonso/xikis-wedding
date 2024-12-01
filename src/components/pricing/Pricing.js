@@ -68,7 +68,7 @@ const Pricing = ({ styleNum, styleNum2 }) => {
             <div className="highlights-text">
               <SectionDesc
                 desc={
-                  "Celebrar una boda son muchísimos preparativos. Rogamos vuestra participación para confirmar lo antes posible"
+                  "Celebrar una boda son muchísimos preparativos. Rogamos vuestra participación para confirmar lo antes posible al menos un mes antes de la fecha de la boda. 🎉"
                 }
                 className={sectionDescClass}
               />

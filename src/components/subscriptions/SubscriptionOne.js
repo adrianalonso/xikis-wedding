@@ -10,6 +10,7 @@ import Map from "@/components/common/map/Map";
 import SectionTitleTwo from "@/components/common/sectionTitle/SectionTitleTwo";
 import RightArrow from "@/components/common/icons/RightArrow";
 import ellipse_2 from "@/assets/images/home-1/ellipse-2.png";
+import { IoLogoWhatsapp } from "react-icons/io";
 
 const SubscriptionOne = ({ styleNum }) => {
   const [el, seEl] = useState("");
@@ -107,7 +108,7 @@ const SubscriptionOne = ({ styleNum }) => {
   // ----- Change classname define in home page
 
   return (
-    <section className={`position-relative ${prentClass}`}>
+    <section id="contact" className={`position-relative ${prentClass}`}>
       {dotImg && (
         <div className="ellipse-image-2">
           <Image src={ellipse_2} alt="ellipse-1" />
@@ -122,48 +123,21 @@ const SubscriptionOne = ({ styleNum }) => {
                 <div
                   className={`section-title ${sectionWapperClass} mb-4 mb-lg-5`}
                 >
-                  <SectionName
-                    name={` ${sectionName ? "Schedule" : "Join the Harmonious Beat"} `}
-                    className={""}
+                  <SectionName name={` ¿Tienes alguna duda? `} className={""} />
+                  <SectionTitleTwo
+                    title={"Contacta"}
+                    subTitle={"con nosotros"}
+                    titleClass={titleClass}
+                    subTitleClass={subTitleClass}
                   />
-                  {subTitle2 ? (
-                    <SectionTitleTwo
-                      title={"Sonic"}
-                      subTitle={"Dispatch"}
-                      titleClass={titleClass}
-                      subTitleClass={subTitleClass}
-                    />
-                  ) : (
-                    <SectionTitle
-                      title={"Sonic"}
-                      subTitle={"Dispatch"}
-                      titleClass={""}
-                      subTitleClass={subTitleClass}
-                    />
-                  )}
                 </div>
                 {/* -- section-title -- */}
                 <SectionDesc
                   desc={
-                    "Become Part of Our Harmonious Community and Receive Exclusive Updates, Special Offers, and Exciting News about the Festival Straight to Your Inbox."
+                    "Si se nos ha escapado algo y tienes alguna duda en particular que podamos ayudarte, no dudes en contactar con alguno de nosotros."
                   }
                   className={sectionDescClass}
                 />
-
-                <form action="#">
-                  <div className="subscription-form position-relative">
-                    <input
-                      type="email"
-                      className="form-control"
-                      id="subscriptionInput1"
-                      placeholder="Enter your Email"
-                      required
-                    />
-                    <button className="subscription-form-arrow" type="submit">
-                      <SubscriptionFormArrow />
-                    </button>
-                  </div>
-                </form>
               </div>
               {/* -- subscription-left-content -- */}
             </div>
@@ -171,44 +145,23 @@ const SubscriptionOne = ({ styleNum }) => {
 
             <div className="col-lg-5 wow fadeInLeft">
               <h3 className="straight-line-wrapper fw-semibold position-relative mb-20">
-                {" "}
-                <span className="straight-line"></span>Harmonia Wayfinder
+                <span className="straight-line"></span>Teléfono de Adrián
               </h3>
-              <div className="map-image parallax position-relative">
-                <span className={`map-marker ${markerClr}`}>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="currentColor"
-                    className="bi bi-geo-alt-fill"
-                    viewBox="0 0 16 16"
-                  >
-                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
-                  </svg>
-                </span>
-
-                <div className="map-popup-content">
-                  <h3 className={`${addressClassName}`}>Basement</h3>
-                  <p className={`${addressClass}`}>
-                    135W, 46nd Street, New York
-                  </p>
-                  <Link
-                    onClick={() => seEl(true)}
-                    id="mapDirectionBtn"
-                    href="#"
-                    className={`btn ${directionBtn} btn-sm d-flex align-items-center justify-content-center custom-roboto gap-10 btn-map-direction`}
-                    data-bs-toggle="modal"
-                    data-bs-target="#RoutingMapModal"
-                  >
-                    Get Direction <RightArrow />{" "}
-                  </Link>
-                </div>
-              </div>
-
-              {/* <!-- Modal-Map --> */}
-              <Map el={el} />
-              {/* <!-- Modal-Map --> */}
+              <p className="custom-jakarta custom-font-style-2 fw-semibold phone-number mb-0 text-primary">
+                <IoLogoWhatsapp />{" "}
+                <a href="tel:+34616364750" className="text-primary">
+                  616 36 47 50
+                </a>
+              </p>
+              <h3 className="straight-line-wrapper fw-semibold position-relative mb-20 mt-40">
+                <span className="straight-line"></span>Teléfono de Marisol
+              </h3>
+              <p className="custom-jakarta custom-font-style-2 fw-semibold phone-number mb-0 text-primary">
+                <IoLogoWhatsapp />{" "}
+                <a href="tel:+34673007249" className="text-primary">
+                  673 00 72 49
+                </a>
+              </p>
             </div>
           </div>
         </div>

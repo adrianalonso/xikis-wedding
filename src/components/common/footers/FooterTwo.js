@@ -36,43 +36,28 @@ const FooterTwo = ({ styleNum }) => {
     <footer className="footer-section footer-1 py-lg-50 py-40 mt-auto">
       <div className="container">
         <div className="row gy-lg-0 gy-10 justify-content-between align-items-center text-center text-lg-start">
-          <div className="col-lg-4 order-3 order-lg-1">
-            <p className="mb-0  custom-jakarta custom-font-style-2 footer-nav">
-              &copy; <span className="current-year">{year}</span>{" "}
-              <Link
-                href="https://themeperch.net/"
-                className="text-decoration-none"
-                target="_blank"
-              >
-                Themeperch
-              </Link>
-              . All rights Reserved.
-            </p>
-          </div>
+          <div className="col-lg-4 order-3 order-lg-1"></div>
           <div className="col-lg-4 order-1 order-lg-2">
             <Link
               className="navbar-brand d-flex justify-content-center"
-              href="/home-1/"
+              href="#"
               aria-label="nav-brands"
             >
-              <Image src={currentLogo} className="logo-light" alt="logo" />
-              <Image src={currentLogoDark} className="logo-dark" alt="logo" />
+              <Image
+                src={currentLogo}
+                width={140}
+                className="logo-light"
+                alt="logo"
+              />
+              <Image
+                src={currentLogoDark}
+                width={140}
+                className="logo-dark"
+                alt="logo"
+              />
             </Link>
           </div>
-          <div className="col-lg-4 order-2 order-lg-3">
-            <ul className="footer-nav list-unstyled d-flex justify-content-center justify-content-lg-end gap-30 mb-0 custom-roboto  custom-font-style-1">
-              <li className="nav-item">
-                <Link href="#" className="nav-link z" aria-label="nav-links">
-                  Privecy Policy
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link href="#" className="nav-link" aria-label="nav-links">
-                  Terms & Conditions
-                </Link>
-              </li>
-            </ul>
-          </div>
+          <div className="col-lg-4 order-2 order-lg-3"></div>
         </div>
         {/* <!-- row --> */}
       </div>

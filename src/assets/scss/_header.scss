@@ -27,7 +27,6 @@
     letter-spacing: 1px;
     color: var(--#{$prefix}nav-link-color) !important;
     &.active {
-      color: var(--#{$prefix}primary) !important;
     }
     &:hover {
       color: var(--#{$prefix}primary) !important;

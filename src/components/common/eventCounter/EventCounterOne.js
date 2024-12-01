@@ -41,7 +41,7 @@ const EventCounterOne = ({ styleNum }) => {
 
   return (
     <div className={`event-counter ${parentClass}`}>
-      <div className="row row-cols-2 row-cols-md-3 gy-lg-0 gy-4 justify-content-between">
+      <div className="row row-cols-3 row-cols-md-3 gy-lg-0 gy-4 justify-content-between">
         {counterData.map(({ id, count_value, span1, span2 }) => {
           return (
             <div key={id} className="col">
@@ -50,12 +50,7 @@ const EventCounterOne = ({ styleNum }) => {
                   className={`odometer text-primary display-2 ${numberClass}`}
                   style={{ fontWeight: "bold" }}
                 >
-                  <SlotCounter
-                    value={count_value}
-                    debounceDelay={5000}
-                    duration={2}
-                    autoAnimationStart={true}
-                  />
+                  {count_value}
                 </span>
                 <h3 className="fw-extra-bold d-flex flex-column custom-jakarta">
                   <span>{span1}</span>

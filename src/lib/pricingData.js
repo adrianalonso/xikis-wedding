@@ -12,7 +12,7 @@ export const pricingData = [
     features: [
       {
         id: 1,
-        feature_name: "¿Encontrarás a tu media naranja?",
+        feature_name: "¿Encontrarás tu media naranja?",
       },
       {
         id: 2,
@@ -20,7 +20,7 @@ export const pricingData = [
       },
       {
         id: 3,
-        feature_name: "Lo que pasa en Almería, se queda en Almería",
+        feature_name: "Lo que pasa en Almería, se queda en Almería 😏",
       },
     ],
   },
@@ -33,15 +33,15 @@ export const pricingData = [
     features: [
       {
         id: 1,
-        feature_name: "¿De una boda sale otra boda?",
+        feature_name: "¿De una boda saldrá otra boda? 🤔",
       },
       {
         id: 2,
-        feature_name: "No aceptamos rupturas, gracias",
+        feature_name: "No aceptamos rupturas, ¡gracias!",
       },
       {
         id: 3,
-        feature_name: "Artist Interaction",
+        feature_name: "¡Que viva el amor! 🥰",
       },
     ],
   },
@@ -58,11 +58,11 @@ export const pricingData = [
       },
       {
         id: 2,
-        feature_name: "Diversión asegurada para tus hijos",
+        feature_name: "Diversión asegurada para tus hijos 🎉",
       },
       {
         id: 3,
-        feature_name: "",
+        feature_name: "¡Un día para recordar! 🌟",
       },
     ],
   },

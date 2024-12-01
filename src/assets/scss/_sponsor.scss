@@ -74,3 +74,26 @@
     }
   }
 }
+
+.sponsor-section {
+  .sponsors-type {
+    margin-bottom: 24px;
+  }
+
+  ul.hotel-list {
+    list-style: none;
+    padding-left: 0;
+
+    > li {
+      font-weight: bold;
+      font-size: 20px;
+      + ul {
+        margin-bottom: 8px;
+
+        li {
+          list-style: none;
+        }
+      }
+    }
+  }
+}
