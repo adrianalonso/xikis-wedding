@@ -9,13 +9,17 @@ import gallery_8 from "@/assets/images/gallery-8.jpg";
 import gallery_9 from "@/assets/images/gallery-9.jpg";
 import gallery_10 from "@/assets/images/gallery-10.jpg";
 import gallery_11 from "@/assets/images/gallery-11.jpg";
+import gallery_12 from "@/assets/images/gallery-12.jpg";
+import gallery_13 from "@/assets/images/gallery-13.jpg";
+import gallery_14 from "@/assets/images/gallery-14.jpg";
+import gallery_15 from "@/assets/images/gallery-15.jpg";
 
 export const galleryData = [
   {
     id: 1,
     thumb: gallery_1,
-    type: "Video",
-    link: "https://www.youtube.com/embed/0O2aH4XLbto",
+    type: "Image",
+    link: "#",
   },
   {
     id: 2,
@@ -26,8 +30,8 @@ export const galleryData = [
   {
     id: 3,
     thumb: gallery_3,
-    type: "Video",
-    link: "https://www.youtube.com/embed/0O2aH4XLbto",
+    type: "Image",
+    link: "#",
   },
   {
     id: 4,
@@ -38,8 +42,8 @@ export const galleryData = [
   {
     id: 5,
     thumb: gallery_5,
-    type: "Video",
-    link: "https://www.youtube.com/embed/0O2aH4XLbto",
+    type: "Image",
+    link: "#",
   },
   {
     id: 6,
@@ -50,8 +54,8 @@ export const galleryData = [
   {
     id: 7,
     thumb: gallery_7,
-    type: "Video",
-    link: "https://www.youtube.com/embed/0O2aH4XLbto",
+    type: "Image",
+    link: "#",
   },
   {
     id: 8,
@@ -62,8 +66,8 @@ export const galleryData = [
   {
     id: 9,
     thumb: gallery_9,
-    type: "Video",
-    link: "https://www.youtube.com/embed/0O2aH4XLbto",
+    type: "Image",
+    link: "#",
   },
   {
     id: 10,
@@ -74,30 +78,30 @@ export const galleryData = [
   {
     id: 11,
     thumb: gallery_11,
-    type: "Video",
-    link: "https://www.youtube.com/embed/0O2aH4XLbto",
+    type: "Image",
+    link: "#",
   },
   {
     id: 12,
-    thumb: gallery_1,
-    type: "Video",
-    link: "https://www.youtube.com/embed/0O2aH4XLbto",
+    thumb: gallery_12,
+    type: "Image",
+    link: "#",
   },
   {
     id: 13,
-    thumb: gallery_2,
+    thumb: gallery_13,
     type: "Image",
     link: "#",
   },
   {
     id: 14,
-    thumb: gallery_3,
-    type: "Video",
-    link: "https://www.youtube.com/embed/0O2aH4XLbto",
+    thumb: gallery_14,
+    type: "Image",
+    link: "#",
   },
   {
     id: 15,
-    thumb: gallery_4,
+    thumb: gallery_15,
     type: "Image",
     link: "#",
   },

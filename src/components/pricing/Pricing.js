@@ -4,17 +4,22 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
 import SectionName from "@/components/common/sectionTitle/SectionName";
-import SectionTitle from "@/components/common/sectionTitle/SectionTitle";
 import SectionDesc from "@/components/common/sectionTitle/SectionDesc";
 import PricingCard from "@/components/common/cards/PricingCard";
+import copy from "@/assets/images/copy.png";
+
 import SectionTitleTwo from "@/components/common/sectionTitle/SectionTitleTwo";
 import { pricingData } from "@/lib/pricingData";
+import CopyToClipboard from "react-copy-to-clipboard";
+import Confetti from "react-confetti-boom";
 
 const Pricing = ({ styleNum, styleNum2 }) => {
-  // styleNum 0 from home page 1 and home page 2
-  // styleNum 1 from home page 3
-  // styleNum 2 from home page 4
-  // styleNum 3 from home page 6
+  const [textToCopy, _] = React.useState("ES1300730100580206970190"); // The text you want to copy
+  const [copyStatus, setCopyStatus] = React.useState(false); // To indicate if the text was copied
+
+  const onCopyText = () => {
+    setCopyStatus(true);
+  };
 
   // ----- Change classname define in home page
   let sectionDescClass;
@@ -120,6 +125,25 @@ const Pricing = ({ styleNum, styleNum2 }) => {
           {/* -- swiper-wrapper -- */}
         </div>
         {/* -- swiper -- */}
+        <div className="gift">
+          <p className="text">Tu presencia ya es nuestro mayor regalo 🎉 </p>
+          <p className="text">
+            Pero si quieres aportar al proyecto que iniciamos juntos 😍 nos
+            tomaremos un mojito 🍹 a tu salud en nuestro viaje de novios.
+          </p>
+          <p> ¡Gracias por acompañarnos en este día tan especial! 🚀</p>
+          <p>
+            <strong>Cuenta Bancaria</strong>
+          </p>
+          <p className="bank-account">
+            ES13 0073 0100 5802069701 90{" "}
+            <CopyToClipboard text={textToCopy} onCopy={onCopyText}>
+              <img src={copy.src} />
+            </CopyToClipboard>
+          </p>
+          {copyStatus && <p>Texto copiado. Te agradecemos la aportación 🙌</p>}
+          {copyStatus && <Confetti mode="boom" particleCount={500} />}
+        </div>
       </div>
     </section>
   );

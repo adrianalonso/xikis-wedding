@@ -19,8 +19,10 @@ import ellipse_3 from "@/assets/images/ellipse-3.png";
 import Pricing from "@/components/pricing/Pricing";
 
 export const metadata = {
-  title: "Eventiva next.js - Home4",
-  description: "Eventiva next.js multipage webdite with next.js and bootstrap",
+  title:
+    "Adri & Marisol Wedding 🎉 ¡Bienvenidos al festival de nuestras vidas!",
+  description:
+    "Aquí comienza la aventura de Adri y Marisol, una historia cargada de momentos épicos, música que nos mueve el alma y un amor que vibra al ritmo de nuestros corazones. 💃 ¡Gracias por ser parte de nuestra fiesta! 🎶❤️",
 };
 
 const Home = () => {

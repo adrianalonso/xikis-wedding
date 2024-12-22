@@ -5,7 +5,6 @@ import Link from "next/link";
 import SectionName from "@/components/common/sectionTitle/SectionName";
 import SectionDesc from "@/components/common/sectionTitle/SectionDesc";
 import SectionTitleTwo from "@/components/common/sectionTitle/SectionTitleTwo";
-import { SponsorData3 } from "@/lib/SponsorData3";
 
 const SponsorDark = () => {
   return (
@@ -40,40 +39,34 @@ const SponsorDark = () => {
             </div>
           </div>
         </div>
-        {/* -- row -- */}
-
-        {SponsorData3.map(({ id, sponsor_list, sponsors_type }) => {
-          return (
-            <div
-              key={id}
-              className={`row gy-4 gy-lg-0 justify-content-lg-between ${id !== 3 && "mb-60 mb-lg-100"} `}
-            >
-              <div className="col-lg-4">
-                <div className="sponsors-type">
-                  <h2 className="fw-extra-bold mb-0">{sponsors_type}</h2>
-                </div>
-              </div>
-
-              <div className="col-lg-8">
-                <div className="row row-cols-2 row-cols-md-2 row-cols-lg-3 g-20 g-lg-30 align-items-center">
-                  {sponsor_list.map(({ id, sponsor_logo }) => {
-                    return (
-                      <div className="col" key={id}>
-                        <Link href="#" className="sponsor-wrapper">
-                          <Image
-                            src={sponsor_logo}
-                            className="img-fluid"
-                            alt="img"
-                          />
-                        </Link>
-                      </div>
-                    );
-                  })}
-                </div>
-              </div>
+        <div
+          key={id}
+          className={`row gy-4 gy-lg-0 justify-content-lg-between ${id !== 3 && "mb-60 mb-lg-100"} `}
+        >
+          <div className="col-lg-4">
+            <div className="sponsors-type">
+              <h2 className="fw-extra-bold mb-0">{sponsors_type}</h2>
             </div>
-          );
-        })}
+          </div>
+
+          <div className="col-lg-8">
+            <div className="row row-cols-2 row-cols-md-2 row-cols-lg-3 g-20 g-lg-30 align-items-center">
+              {sponsor_list.map(({ id, sponsor_logo }) => {
+                return (
+                  <div className="col" key={id}>
+                    <Link href="#" className="sponsor-wrapper">
+                      <Image
+                        src={sponsor_logo}
+                        className="img-fluid"
+                        alt="img"
+                      />
+                    </Link>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );

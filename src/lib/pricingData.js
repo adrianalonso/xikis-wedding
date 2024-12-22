@@ -16,7 +16,7 @@ export const pricingData = [
       },
       {
         id: 2,
-        feature_name: "Puedes venir con tu rollete",
+        feature_name: "Si vas a venir con un rollete, al menos avisanos",
       },
       {
         id: 3,

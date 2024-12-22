@@ -24,7 +24,7 @@ const ScheduleThree = ({ dotsImage }) => {
                   <SectionName name={"Horarios"} className={""} />
                   <SectionTitleTwo
                     title={"Revisa la"}
-                    subTitle={"Agenda"}
+                    subTitle={"Agenda (Por confirmar)"}
                     titleClass={""}
                     subTitleClass={"text-primary"}
                   />
