@@ -111,7 +111,7 @@ const Sponsor = () => {
                     <li>Hotel Elba</li>
                     <li>Hotel Vertical</li>
                   </ul>
-                  <li>🌴 Si te quedas por centro de Almeria</li>
+                  <li>🌴 Si te quedas por el centro de Almeria</li>
                   <ul>
                     <li>Hotel Catedral</li>
                     <li>Aire Hotel & Ancient Baths</li>
@@ -120,7 +120,7 @@ const Sponsor = () => {
 
                   <li>🏖️ ¿Quieres disfrutar del cabo?</li>
                   <ul>
-                    <li>Hotel NH Cabo de Gata</li>
+                    <li>Hotel Barceló Cabo de Gata</li>
                     <li>Hotel de Naturaleza Rodalquilar & Spa Cabo de Gata</li>
                     <li>Hotel Los Escullos </li>
                   </ul>
