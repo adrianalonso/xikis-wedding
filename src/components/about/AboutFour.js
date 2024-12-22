@@ -73,7 +73,11 @@ const AboutFour = () => {
             {/* -- about-3-text -- */}
 
             <div className="d-block d-md-flex gap-4">
-              <ButtonFill className={"btn-rounded"} link={"#pricing"}>
+              <ButtonFill
+                className={"btn-rounded"}
+                target={"_blank"}
+                link={"https://forms.gle/f2XmNr8q3j7mF5tN6"}
+              >
                 <TicketIcon height={"25"} width={"25"} />
                 Confimar Asistencia
               </ButtonFill>

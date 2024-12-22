@@ -95,11 +95,7 @@ const NavbarThree = () => {
                       );
                     })}
                   </ul>
-                  <ButtonFill
-                    className={"gap-2 btn-rounded"}
-                    link={"https://forms.gle/f2XmNr8q3j7mF5tN6"}
-                    target={"_blank"}
-                  >
+                  <ButtonFill className={"gap-2 btn-rounded"} link={"#pricing"}>
                     <TicketIcon height={"25"} width={"25"} />
                     Confirmar Asistencia
                   </ButtonFill>
