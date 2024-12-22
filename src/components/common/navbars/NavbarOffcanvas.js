@@ -1,11 +1,10 @@
 import React, { useEffect } from "react";
-import Image from "next/image";
 import Link from "next/link";
 
 import { usePathname } from "next/navigation";
 import { menuList } from "@/lib/menuList";
 
-const NavbarOffcanvas = ({ img }) => {
+const NavbarOffcanvas = () => {
   const pathName = usePathname();
   // Remove offcanvas opacity background when change router
   useEffect(() => {
@@ -16,6 +15,16 @@ const NavbarOffcanvas = ({ img }) => {
       }
     }
   }, [pathName]);
+
+  const closeOffcanvas = () => {
+    // Seleccionar el botón de cierre del offcanvas
+    const closeButton = document.querySelector('[data-bs-dismiss="offcanvas"]');
+    if (closeButton) {
+      // Forzar el clic en el botón de cierre
+      closeButton.click();
+    }
+  };
+
   return (
     <div
       className="offcanvas offcanvas-top"
@@ -24,9 +33,6 @@ const NavbarOffcanvas = ({ img }) => {
       tabIndex="-1"
     >
       <div className="offcanvas-header">
-        <Link className="navbar-brand" href="/" aria-label="nav-brands">
-          <Image src={img} alt="logo" />
-        </Link>
         <button
           type="button"
           className="btn-close btn-close-white"
@@ -46,26 +52,11 @@ const NavbarOffcanvas = ({ img }) => {
                   className={`nav-link ${isDropdown && "dropdown-toggle"} `}
                   href={path}
                   aria-label="nav-links"
+                  onClick={closeOffcanvas}
                   data-bs-toggle={`${isDropdown && "dropdown"}`}
                 >
                   {name}
                 </Link>
-                {isDropdown && (
-                  <ul className="dropdown-menu">
-                    {isDropdown.map(({ id, name, path }) => (
-                      <li key={id}>
-                        <Link
-                          className="dropdown-item"
-                          href={path}
-                          target="_blank"
-                          aria-label="single-pages"
-                        >
-                          {name}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                )}
               </li>
             );
           })}

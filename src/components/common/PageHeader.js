@@ -14,20 +14,8 @@ const PageHeader = ({ currentPage, banner, isBlogDetails }) => {
               <li className="breadcrumb-item">
                 <Link href="/home-1">Home</Link>
               </li>
-              {isBlogDetails ? (
-                <>
-                  <li className={`breadcrumb-item active`}>
-                    <Link href="/blog" aria-current="page">
-                      {currentPage}
-                    </Link>
-                  </li>
-                  <li className="breadcrumb-item active" aria-current="page">
-                    Unveils Star-Studded Lineup
-                  </li>
-                </>
-              ) : (
-                <li className={`breadcrumb-item active`}>{currentPage}</li>
-              )}
+
+              <li className={`breadcrumb-item active`}>{currentPage}</li>
             </ol>
           </nav>
         </div>

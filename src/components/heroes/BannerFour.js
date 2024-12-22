@@ -63,16 +63,17 @@ const BannerFour = () => {
                     <Image
                       className="hero-author"
                       src={author_img_1}
+                      width={75}
+                      height={75}
                       alt="img"
                     />
                     <Image
                       className="hero-author ms-n3"
                       src={author_img_2}
+                      width={75}
+                      height={75}
                       alt="img"
                     />
-                    <div className="circle hero-author ms-n3">
-                      <h4 className="text-white fw-extra-bold mb-0">2</h4>
-                    </div>
                   </div>
                   <h3 className="hero-author-title custom-font-jakarta mb-0 fw-extra-bold pe-10">
                     Maestros de Ceromonia

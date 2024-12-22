@@ -107,21 +107,12 @@ const PricingCard = ({
       </div>
 
       <div className="pricing-bottom-content position-relative">
-        {isBtnOutline ? (
-          <ButtonOutline
-            link={link}
-            className={`${id === 1 ? "btn-primary" : "btn-outline-primary"}`}
-          >
-            Confirma tu asistencia
-          </ButtonOutline>
-        ) : (
-          <ButtonCustom
-            link={link}
-            className={`${id === 1 ? "btn-gradient" : "btn-outline-gradient"}`}
-          >
-            Confirma tu asistencia
-          </ButtonCustom>
-        )}
+        <ButtonOutline
+          link={link}
+          className={`${id === 1 ? "btn-primary" : "btn-outline-primary"}`}
+        >
+          Confirma tu asistencia
+        </ButtonOutline>
       </div>
     </div>
   );

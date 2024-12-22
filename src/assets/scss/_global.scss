@@ -43,7 +43,7 @@ a {
     }
 
     @include media-breakpoint-down(sm) {
-      font-size: 2.8rem;
+      font-size: 2.6rem;
     }
   }
 
@@ -1875,14 +1875,11 @@ a {
 
   .hero-author-title {
     display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-    overflow: hidden;
-    max-width: 165px;
+
+    max-width: 220px;
 
     @include media-breakpoint-down(sm) {
       font-size: 18px !important;
-      max-width: 110px;
     }
   }
 

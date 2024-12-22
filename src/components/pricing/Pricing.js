@@ -136,7 +136,7 @@ const Pricing = ({ styleNum, styleNum2 }) => {
             <strong>Cuenta Bancaria</strong>
           </p>
           <p className="bank-account">
-            ES13 0073 0100 5802069701 90{" "}
+            ES13 0073 0100 5802 0697 0190{" "}
             <CopyToClipboard text={textToCopy} onCopy={onCopyText}>
               <img src={copy.src} />
             </CopyToClipboard>

@@ -1,5 +1,4 @@
 import React from "react";
-import SlotCounter from "react-slot-counter";
 
 const counterData = [
   {

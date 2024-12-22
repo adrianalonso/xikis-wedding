@@ -8,7 +8,7 @@ export const pricingData = [
     card_name: "Solteros",
     icon: <PriceIcon1 />,
     price: "$42",
-    link: "#",
+    link: "https://forms.gle/f2XmNr8q3j7mF5tN6",
     features: [
       {
         id: 1,
@@ -29,7 +29,7 @@ export const pricingData = [
     card_name: "Parejas",
     icon: <PriceIcon2 />,
     price: "$100",
-    link: "#",
+    link: "https://forms.gle/f2XmNr8q3j7mF5tN6",
     features: [
       {
         id: 1,
@@ -50,7 +50,7 @@ export const pricingData = [
     card_name: "Familia",
     icon: <PriceIcon3 />,
     price: "$25",
-    link: "#",
+    link: "https://forms.gle/f2XmNr8q3j7mF5tN6",
     features: [
       {
         id: 1,

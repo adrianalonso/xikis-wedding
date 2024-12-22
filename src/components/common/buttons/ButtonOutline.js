@@ -5,6 +5,7 @@ const ButtonOutline = ({ link, className, children }) => {
   return (
     <Link
       href={link}
+      target="_blank"
       className={`btn  d-inline-flex align-items-center  ${className}`}
       aria-label="buttons"
     >
