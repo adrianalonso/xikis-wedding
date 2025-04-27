@@ -3,15 +3,15 @@ import React from "react";
 const counterData = [
   {
     id: 1,
-    span1: "Amigxs",
+    span1: "artistas",
     span2: "invitados",
-    count_value: 98,
+    count_value: 81,
   },
   {
     id: 2,
     span1: " ",
     span2: "Escenarios",
-    count_value: 3,
+    count_value: 4,
   },
   {
     id: 3,

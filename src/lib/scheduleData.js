@@ -5,15 +5,15 @@ export const scheduleData = [
     list: [
       {
         id: 1,
-        date: "11:00h",
+        date: "12:00h",
         vanu: "Salida del autobus",
-        desc: "(Por confirmar horario) Por favor, sed puntuales para estar en la ceremonia a la hora adecuda. El autobús saldrá del Hotel Gran Fama",
+        desc: "Por favor, sed puntuales para estar en la ceremonia a la hora adecuda. El autobús saldrá del Hotel Gran Fama",
       },
       {
         id: 2,
         date: "12:30h",
         vanu: "Ceremonia Civil",
-        desc: "(Por confirmar horario) En un entorno al aire libre, dentro de la finca Casa Rafael, celebraremos nuestra ceremonia. 🌳",
+        desc: "En un entorno al aire libre, dentro de la finca Casa Rafael, celebraremos nuestra ceremonia. 🌳",
       },
       {
         id: 3,
@@ -29,19 +29,19 @@ export const scheduleData = [
       },
       {
         id: 5,
-        date: "18:30h",
+        date: "18:00h",
         vanu: "Baile Nupcial",
         desc: "Los novios abrirán el baile con una espectáculo épico. ¡No te lo pierdas! 💃🕺",
       },
       {
         id: 6,
-        date: "19:00h",
-        vanu: "Barra Libre",
+        date: "18:30h",
+        vanu: "Comienza la fiesta",
         desc: "¡Hora de bailar! La barra libre se abrirá para que disfrutéis de la fiesta. 🎉",
       },
       {
         id: 7,
-        date: "22:00h",
+        date: "21:30h",
         vanu: "Re-cena",
         desc: "Recargaremos fuerzas con una re-cena para seguir con la fiesta. 🍔",
       },
@@ -49,7 +49,7 @@ export const scheduleData = [
         id: 8,
         date: "00:00h",
         vanu: "¿Se acabó la fiesta?",
-        desc: "Lamentablemente, todo lo bueno se acaba. El autobus volverá de vuelta, pero siempre queda algun fiesterx",
+        desc: "Lamentablemente, todo lo bueno se acaba. El autobus saldra de vuelta al hotel Gran Fama, pero siempre queda algun fiesterx",
       },
     ],
   },
